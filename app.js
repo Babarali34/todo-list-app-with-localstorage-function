@@ -19,7 +19,6 @@ function listItems(){
    for (var i = 0; i < items.length; i++){
     list += "<li class=" + (items[i].done ? "Done" : "") + ">";
     list += items[i].value + " ";
-    list += items[i].value + " ";
     list += "<small class ='date' >" + items[i].time + "</small>";
     list += "<span class ='label ' onclick = 'deleteItem("+ i + ")'>\u00D7 </span></li>";
 
